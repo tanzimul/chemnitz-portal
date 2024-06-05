@@ -1,5 +1,3 @@
-# chemnitz-portal
-
 # Chemnitz-Portal
 
 This is a Project for Database and Web Technique
