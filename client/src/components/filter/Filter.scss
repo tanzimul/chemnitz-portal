@@ -1,0 +1,30 @@
+.filter {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+
+	.category {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		label {
+			flex: 1;
+		}
+		input {
+			flex: 3;
+			border: 1px dotted #f0f0f0;
+		}
+	}
+	.tag {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		label {
+			flex: 1;
+		}
+		select {
+			flex: 3;
+			border: 1px dotted #f0f0f0;
+		}
+	}
+}

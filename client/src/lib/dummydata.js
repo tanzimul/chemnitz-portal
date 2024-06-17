@@ -3,6 +3,8 @@ export const categoriesData = [
 		id: 1,
 		type: "FeatureCollection",
 		name: "Schulen",
+		dateCreated: "2023-12-15T10:19:55.509Z",
+		dateUpdated: "2023-12-15T10:19:55.493Z",
 		crs: {
 			type: "name",
 			properties: { name: "urn:ogc:def:crs:OGC:1.3:CRS84" },
@@ -5246,6 +5248,8 @@ export const categoriesData = [
 		id: 2,
 		type: "FeatureCollection",
 		name: "Schulsozialarbeit",
+		dateCreated: "2024-01-19T10:30:55.509Z",
+		dateUpdated: "2024-02-03T10:32:55.493Z",
 		crs: {
 			type: "name",
 			properties: { name: "urn:ogc:def:crs:OGC:1.3:CRS84" },
@@ -6335,6 +6339,8 @@ export const categoriesData = [
 		id: 3,
 		type: "FeatureCollection",
 		name: "Kindertageseinrichtungen",
+		dateCreated: "2023-03-15T10:19:55.509Z",
+		dateUpdated: "2023-05-15T10:19:55.493Z",
 		crs: {
 			type: "name",
 			properties: { name: "urn:ogc:def:crs:OGC:1.3:CRS84" },
@@ -12988,6 +12994,8 @@ export const categoriesData = [
 		id: 4,
 		type: "FeatureCollection",
 		name: "Jugendberufshilfen",
+		dateCreated: "2024-01-01T10:19:55.509Z",
+		dateUpdated: "2024-05-09T10:19:55.493Z",
 		crs: {
 			type: "name",
 			properties: { name: "urn:ogc:def:crs:OGC:1.3:CRS84" },

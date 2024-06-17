@@ -1,16 +1,40 @@
 .categoryPage {
 	display: flex;
+	justify-content: space-between;
 	height: 100vh;
+	background-color: #ffffff;
+	border-radius: 5px;
+	color: #000000;
+	//justify-content: space-evenly;
 
-	.mapContainer {
-		flex: 2;
-		background-color: #043136;
-	}
+	// .mapContainer {
+	// 	flex: 1;
+	// 	background-color: #043136;
+	// }
 	.listContainer {
-		flex: 3;
+		flex: 8;
+		display: flex;
+		justify-content: space-between;
+		//padding: 30px;
+
+		.filterWrapper {
+			flex: 1;
+			background-color: #f0f0f0;
+			color: #000000;
+			border: 1px solid #808080;
+			border-radius: 5px;
+			padding: 10px;
+			margin: 10px;
+		}
 
 		.listWrapper {
-			padding: 20px;
+			flex: 3;
+			display: flex;
+			flex-direction: column;
+			gap: 50px;
+			overflow-y: scroll;
+			scrollbar-color: rgb(0, 0, 0) rgb(218, 218, 218);
+			scrollbar-width: thin;
 		}
 	}
 }
