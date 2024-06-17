@@ -1,0 +1,16 @@
+.categoryPage {
+	display: flex;
+	height: 100vh;
+
+	.mapContainer {
+		flex: 2;
+		background-color: #043136;
+	}
+	.listContainer {
+		flex: 3;
+
+		.listWrapper {
+			padding: 20px;
+		}
+	}
+}
