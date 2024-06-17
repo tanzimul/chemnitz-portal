@@ -1,0 +1,28 @@
+.searchBar {
+	form {
+		display: flex;
+		justify-content: center;
+
+		input {
+			padding: 10px 20px;
+			border-radius: 5px 0 0 5px;
+			border: none;
+
+			&hover {
+				border: none;
+			}
+		}
+		button {
+			border-radius: 0 5px 5px 0;
+			padding: 10px 20px;
+			border: none;
+			cursor: pointer;
+			background-color: #19a7ce;
+
+			img {
+				height: 24px;
+				width: 24px;
+			}
+		}
+	}
+}

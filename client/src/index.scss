@@ -12,7 +12,8 @@ body {
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
 	font-family: "Lato", sans-serif;
-	overflow: hidden;
+	overflow-y: scroll;
+	overflow-x: hidden;
 	background-color: #31363f;
 	color: #ffffff;
 }
@@ -23,18 +24,12 @@ a {
 	border-radius: 5px;
 }
 
-// img, picture, video, canvas, svg {
-//     display: block;
-//     max-width: 100%;
-// }
-
 input,
 button,
 textarea,
 select,
 div {
 	font: inherit;
-	border-radius: 5px;
 }
 
 p,

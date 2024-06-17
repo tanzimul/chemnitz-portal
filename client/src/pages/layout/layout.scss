@@ -1,10 +1,12 @@
-@import "./responsive.scss";
+@import "../../responsive.scss";
 
 .layout {
-	height: 100vh;
+	//height: 100vh;
 	max-width: 1366px;
 	margin: 0 auto;
 	padding: 20px;
+	display: flex;
+	flex-direction: column;
 
 	@include lg {
 		background-color: #686d76;
@@ -19,5 +21,12 @@
 	@include sm {
 		background-color: #322c2b;
 		max-width: 640px;
+	}
+
+	.content {
+		background-color: #686d76;
+		flex: 1;
+		margin-top: 20px;
+		border-radius: 5px;
 	}
 }
