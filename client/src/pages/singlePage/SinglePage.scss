@@ -1,0 +1,19 @@
+.singlePage {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 20px;
+
+	.mainData {
+		flex: 2;
+		.profileData {
+			margin-bottom: 20px;
+		}
+	}
+	.mapSingle {
+		flex: 4;
+		.map {
+			height: 400px;
+		}
+	}
+}
