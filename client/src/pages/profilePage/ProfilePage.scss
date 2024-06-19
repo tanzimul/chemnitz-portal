@@ -1,0 +1,49 @@
+.profilePage {
+	background-color: #f0f0f0;
+	color: #000000;
+	padding: 30px;
+	border-radius: 5px;
+	.wrapper {
+		display: flex;
+		flex-direction: column;
+		gap: 50px;
+
+		.title {
+		}
+
+		.info {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: start;
+
+			span {
+				font-size: 20px;
+			}
+
+			img {
+				height: 50px;
+				width: 50px;
+				border-radius: 5px;
+				margin-left: 20px;
+			}
+			button {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding: 12px 24px;
+				margin-top: 20px;
+				transition: all 0.4s ease;
+				background-color: #19a7ce;
+				font-weight: bold;
+				border: none;
+				border-radius: 5px;
+				color: #ffffff;
+
+				&:hover {
+					scale: 1.05;
+				}
+			}
+		}
+	}
+}

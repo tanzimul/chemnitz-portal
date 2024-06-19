@@ -1,0 +1,46 @@
+.registrationPage {
+	padding: 30px 0;
+	.formContainer {
+		display: flex;
+		justify-content: center;
+		.formElement {
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+			justify-content: center;
+			align-items: center;
+			margin-top: 20px;
+
+			input {
+				padding: 7px;
+				border: 1px solid #f0f0f0;
+				border-radius: 5px;
+			}
+
+			button {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				padding: 12px 24px;
+				margin: 20px;
+				transition: all 0.4s ease;
+				background-color: #19a7ce;
+				font-weight: bold;
+				border: none;
+				border-radius: 5px;
+				color: #ffffff;
+
+				&:hover {
+					scale: 1.05;
+				}
+			}
+
+			.login {
+				color: #ffffff;
+				span {
+					color: #19a7ce;
+				}
+			}
+		}
+	}
+}
