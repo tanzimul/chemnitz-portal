@@ -7,7 +7,6 @@ import { useNavigate } from "react-router-dom";
 function ProfileUpdatePage() {
 	const { currentUser, updateUser } = useContext(AuthContext);
 	const [error, setError] = useState("");
-	const [avatar, setAvatar] = useState([]);
 
 	const navigate = useNavigate();
 
@@ -22,7 +21,6 @@ function ProfileUpdatePage() {
 				username,
 				email,
 				password,
-				avatar: avatar[0],
 			});
 			updateUser(res.data);
 			navigate("/profile");

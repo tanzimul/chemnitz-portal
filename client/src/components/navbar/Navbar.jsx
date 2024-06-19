@@ -20,10 +20,7 @@ function Navbar() {
 				<a href="/categories">Categories</a>
 				{currentUser ? (
 					<div className="user">
-						<img
-							src={currentUser.avatar || "/noavatar.jpg"}
-							alt="Profile Image"
-						/>
+						<img src="/noavatar.jpg" alt="Profile Image" />
 						<span>{currentUser.username}</span>
 						<Link to="/profile">Profile</Link>
 					</div>
